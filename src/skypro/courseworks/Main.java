@@ -1,8 +1,5 @@
 package skypro.courseworks;
 
-/**
- * Сотрудник
- */
 public class Main {
     private static final Employee[] employees = {
             new Employee("Мамеев Дмитрий Михайлович", 1, 125600),
@@ -17,6 +14,7 @@ public class Main {
             new Employee("Куценко Лиана Арсеновна", 1, 103000),
 
     };
+    //Базовая сложность
     public static void printEmployees() {
         for (Employee employee : employees) {
             System.out.println(employee);

@@ -2,6 +2,7 @@ package skypro.courseworks;
 
 import java.util.Objects;
 
+//Базовая сложность
 public class Employee {
     private int id;
     private String fullName;
